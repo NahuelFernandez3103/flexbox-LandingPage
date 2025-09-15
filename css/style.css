@@ -92,3 +92,39 @@ button {
   height: 250px;
   background-color: gray;
 }
+
+/* ===========================
+   * Seccion de informacion *
+   =========================== */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 600px;
+  gap: 30px;
+}
+
+.illustration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.illustration {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#info-heading {
+  margin: 50px 0;
+}
