@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ==============================
+   *Reset y configuración global*
+   ============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/*  ===========================
+    * Header y navegación *
+   =========================== */
+header,
+.hero-section {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+
+#hero-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+  color: #e5e7eb;
+}
+
+/* ===========================
+   * Hero section *
+   =========================== */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.hero-description {
+  width: 450px;
+  margin-right: 60px;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.secondary-text {
+  color: #e5e7ebb6;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+/* ===========================
+    * Botón *
+   =========================== */
+button {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===========================
+   * Placeholder de imagen *
+   =========================== */
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+}
