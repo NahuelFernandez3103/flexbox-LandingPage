@@ -157,3 +157,55 @@ button {
   font-weight: bold;
   margin-top: 20px;
 }
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 30px;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  gap: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.action-info {
+  max-width: 500px;
+  width: 100%;
+}
+
+.call-to-action-btn {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 8px 32px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.call-to-action-btn:hover,
+.call-to-action-btn:focus {
+  background: #fff;
+  color: #3882f6;
+  outline: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 30px;
+  color: #f9faf8;
+}
